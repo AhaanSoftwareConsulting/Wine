@@ -1,0 +1,270 @@
+@media (min-width: 360px) and (max-width: 479px) {
+body {
+  overflow-x: hidden;
+}
+.navbar-toggler{
+  border: none;
+}
+.navbar-brand img {
+      height: 40px;
+    }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(178, 75, 110)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+#mobileMenu{
+background-color: #FFF6EA;
+}
+.offcanvas-header .btn-close{
+    color:#B14E6E;
+}
+.offcanvas-body .navbar-nav .nav-link {
+  font-weight: 500;
+  margin: 5px 25px;
+  color: #B14E6E;
+  font-size: 22px;
+  gap: 20px;
+}
+p{
+ font-size:16px;
+}
+.btn{
+   padding: 10px 20px;
+   border-radius: 0;
+   font-size: 15px;
+}
+.hero h2{
+      font-size:2.2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+ .wine-item img {
+        max-height: 250px;
+}
+ .hero {
+        padding: 60px 20px;
+        text-align: center;
+         background: url('images/banhome.png') no-repeat  right center/cover;
+      }
+
+      .hero-content {
+        max-width: 100%;
+        align-items: center;
+      }
+      .wine-section h2{
+        font-size: 1.5rem;
+        }
+        .twig-left, .twig-right{
+            width: 100px;
+        }
+      .section-woman .estd {
+        font-size: 3.8rem;
+        top: 79.8%;
+        left: 50%;
+        color: rgba(0, 0, 0, 0.103);
+      }
+
+      .section-woman .title {
+        font-size: 2.5rem;
+        margin-left: 0;
+      }
+       .curve {
+      margin-left: 0;
+    }
+      .section-woman .floral-bg {
+        width: 100px;
+      }
+ .twig-left, .twig-right {
+        width: 100px;
+}
+  .arc h1 {
+      font-size: 2.2rem;
+      margin-top: 1rem ;
+    }
+    .arc-slider {
+      margin-top: 1rem ;
+    }
+    .arc h3{
+      font-size: 1.5rem;
+      margin-top: 1rem ;
+    }
+     .arc-item.left {
+        transform: translate(-100%, -20%) rotate(-10deg) scale(0.7);
+    }
+    .arc-item.left-far {
+        transform: translate(-110%, -40%) rotate(-12deg) scale(0.5);
+    }
+    .arc-item.right {
+        transform: translate(0%, -20%) rotate(10deg) scale(0.7);
+    }
+    .arc-item.right-far {
+        transform: translate(10%, -40%) rotate(12deg) scale(0.5);
+    }
+    #prevBtn, #nextBtn{
+      font-size: 1rem;
+    }
+    .clip-text {
+    font-size: 4rem;
+}
+.bottle-image{
+  width:50%;
+  margin-top:-2rem;
+}
+.jargon h1{
+  font-size: 3rem;
+}
+.moments-section {
+    padding: 3rem 0 15rem 0;
+    z-index: 2;
+    margin-bottom: -12rem;
+}
+.moments-section h3{
+  font-size: 40px;
+}
+.image-row {
+        flex-direction: column;
+        align-items: center;
+      }
+      .image-row img {
+        width: 90%;
+        height: auto;
+      }
+      .pink-section{
+        width: 90%;
+       
+      }
+       .pink-section h1 {
+        font-size: 1.8rem;
+      }
+      .pink-section h5 {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+     .pink-section .btn{
+       padding: 10px 10px;
+       font-size: 15px;
+     }
+    .pink-section .flower-left,
+    .pink-section .flower-right {
+      width: 100px;
+    }
+    .footer {
+      padding: 180px 20px 30px;
+      margin-top:-8rem;
+    }
+      .footer .logo img{
+        width:100%;
+        margin: auto;
+      }
+}
+@media (min-width: 375px) and (max-width: 479px) {
+    
+}
+@media (min-width: 390px) and (max-width: 479px) {
+    
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  body {
+  overflow-x: hidden;
+}
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(178, 75, 110)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+      .hero {
+        padding: 60px 20px;
+        text-align: center;
+         background: url('images/banhome.png') no-repeat  right center/cover;
+      }
+      .hero-content {
+        max-width: 100%;
+        align-items: center;
+      }
+      .wine-section h2{
+        font-size: 2rem;
+        }
+        .twig-left, .twig-right{
+            width: 100px;
+        }
+        .wine-item img {
+        max-height: 250px;
+}
+      .section-woman .estd {
+        font-size: 3rem;
+        top: 65%;
+      }
+
+    .section-woman .description {
+      color: #333;
+    }
+
+      .section-woman .floral-bg {
+        width: 100px;
+      }
+      .arc h1{
+        font-size: 2rem;
+      }
+     .arc-slider {
+     margin-top:0rem;
+    }
+    .arc-item img {
+    max-width: 60%;
+    }
+.arc h3{
+  margin-top: 1rem;
+}
+        .arc-item.left {
+        transform: translate(-100%, -20%) rotate(-10deg) scale(0.7);
+    }
+    .arc-item.left-far {
+        transform: translate(-110%, -40%) rotate(-12deg) scale(0.5);
+    }
+    .arc-item.right {
+        transform: translate(0%, -20%) rotate(10deg) scale(0.7);
+    }
+    .arc-item.right-far {
+        transform: translate(10%, -40%) rotate(12deg) scale(0.5);
+    }
+    .clip-text {
+    font-size: 4rem;
+}
+.bottle-image{
+  width:70%;
+}
+.flower-left ,.flower-right{
+    width: 10%;
+}
+.footer .logo {
+        font-size: 4rem;
+      }
+}
+@media (min-width: 1280px) and (max-width: 1440px){
+  body{
+    overflow-x: hidden;
+  }
+   .hero {
+      background: url('images/banhome.png') no-repeat top right/cover;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-top: 0;
+    }
+     .section-woman .estd {
+      font-size: 9.5rem;
+        top: 52.5%;
+      }
+  .jargon h1{
+  font-size: 5.2rem;
+  color: #B14E6E;
+}
+  .btn-danger ,.btn-outline-danger {
+    font-size: 18px;
+}
+ .footer .logo img{
+  width: 100%;
+ }
+}
