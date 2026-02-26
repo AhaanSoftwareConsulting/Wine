@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fleur de Verre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg ">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+
+    <!-- Toggler only visible on mobile/tab -->
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop Menu -->
+    <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Wines</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quiz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Wine School</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item d-flex gap-2">
+            <a class=" btn-contact text-decoration-none" href="#">Contact Us</a>
+            <a class=" btn-shop-header text-decoration-none" href="#">Shop Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Offcanvas Menu for Mobile -->
+<div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"></i><img src="images/wine.png" alt="">&nbsp;Wines</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="images/quiz.png" alt="">&nbsp;Quiz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="images/glass.png" alt="">&nbsp;Wine School</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="images/about.png" alt="">&nbsp;About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="images/event.png" alt="">&nbsp;Events</a>
+        </li>
+       <li class="nav-item d-flex gap-2 m-4">
+            <a class=" btn btn-contact text-decoration-none" href="#">Contact Us</a>
+            <a class=" btn btn-shop-header text-decoration-none" href="#">Shop Now</a>
+        </li>
+      </ul>
+  </div>
+</div>
+<!-- hero banner -->
+ <section class="hero">
+  <div class="container">
+    <div class="hero-content mt-5">
+      <h2>Wine Designed for Women</h2>
+      <h1>– Discover, Taste, Connect</h1>
+      <p>An intuitive and inclusive wine experience that tells the story behind every bottle.</p>
+      <div class="d-flex gap-2 flex-wrap ms-md-5 ms-lg-0 ms-3">
+        <button class="btn btn-shop">Shop Now</button>
+        <button class="btn btn-quiz">Take the Wine Match Quiz</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="wine-section">
+  <img src="images/twig1.png" class="twig-left" alt="Twig Left">
+  <img src="images/twig2.png" class="twig-right" alt="Twig Right">
+  <div class="container">
+    <h2>Wines That Speak to the Heart</h2>
+    <div class="row text-center ">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 wine-item ">
+        <img src="images/wine1.png" alt="Rosée du Cœur" >
+        <div class="wine-name item1">Rosée du Cœur</div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 wine-item">
+        <img src="images/wine2.png" alt="Lune de Verre" >
+        <div class="wine-name item2">Lune de Verre</div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 wine-item">
+        <img src="images/wine3.png" alt="Étreinte Sauvage" >
+        <div class="wine-name item3">Étreinte Sauvage</div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 wine-item">
+        <img src="images/wine4.png" alt="Belle Promesse" >
+        <div class="wine-name item4">Belle Promesse</div>
+      </div>
+    </div>
+    <button class="btn btn-explore">Explore Our Wine Collection</button>
+  </div>
+</section>
+<section class="section-woman">
+  <img src="images/flower2.png" class="floral-bg" alt="Floral" />
+  <div class="estd">ESTD–1986</div>
+
+  <div class="container">
+    <div class="  row align-items-center">
+      <!-- Left Wine Image -->
+      <div class="col-lg-6 text-center text-lg-start">
+        <img src="images/bottlepic.png" alt="Wine Barrel" class="img-fluid-custom">
+      </div>
+
+      <!-- Right Text and Woman Image -->
+      <div class="col-lg-6">
+        <div class="row">
+          <!-- Text -->
+         <h2 class="title">Every Bottle Has<br>A Woman Behind It.</h2>
+        <div class="curve"><img src="images/Vector 1.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="  row align-items-center gy-5">
+      <!-- Left Wine Image -->
+      <div class="col-lg-6 text-center text-lg-start">
+        <p class="description">
+              Since 1986, we've been rewriting the wine story—one that honors tradition, but speaks to today’s woman. For nearly four decades, our vineyards have grown under the care of passionate women who believe that wine is not just about taste, but about connection, emotion, and authenticity.
+              <br><br>
+              Every bottle we share carries the spirit of craftsmanship, community, and a quiet confidence rooted in the soil of our French heritage.
+            </p>
+            <button class="btn btn-learn mt-3">Learn More About Our History</button>
+      </div>
+
+      <!-- Right Text and Woman Image -->
+      <div class="col-lg-6">
+         <img src="images/manu.png" alt="Winemaker" class="img-fluid-custom">
+      </div>
+    </div>
+  </div>
+</section>
+<div class=" text-center arc">
+  <h1>Where Every Woman <br/>Finds Her Favorite</h1>
+    <div class=" container arc-slider position-relative">
+        <div class="arc-item active">
+            <img src="images/slide1.png" class="img-fluid" alt="1">
+        </div>
+        <div class="arc-item left-far">
+            <img src="images/slide2.png" class="img-fluid" alt="2">
+        </div>
+        <div class="arc-item left">
+            <img src="images/slide3.png" class="img-fluid" alt="3">
+        </div>
+        <div class="arc-item right">
+            <img src="images/slide1.png" class="img-fluid" alt="4">
+        </div>
+        <div class="arc-item right-far">
+            <img src="images/slide2.png" class="img-fluid" alt="5">
+        </div>
+    </div>
+
+    <h3 class="text-center">I never felt included in <br/>wine culture before this.</h3>
+
+    <div class="d-flex justify-content-center mt-5">
+        <button  id="prevBtn"><img src="images/btL.png" alt=""></button>
+        <button  id="nextBtn"><img src="images/btR.png" alt=""></button>
+    </div>
+</div>
+<section class="about-section py-5 ">
+    <div class=" mt-5 container text-center">
+        <div class="clip-text"><img src="images/clip.png" alt=""></div>
+
+        <div class="container row  text-end jargon">
+            <div class=" d-flex flex-lg-row col-md-8 mb-lg-4 mb-md-0 mb-0">
+              <h1 class=" mt-5" >Wine Without the Jargon</h1>
+                <img src="images/bottle1.png" alt="Wine Bottle" class=" bottle-image align-items-center">
+            </div>
+            <div class="col-md-4 text-start mt-lg-5  mt-md-5 mt-0">
+                <p>
+                    Whether you’re a casual sipper or just starting to explore the world of wine, you deserve a space where learning feels fun, not formal. That’s why we’ve created a guide that skips the snobbery and brings you straight to the joy of the pour. No complicated terms, no intimidating rules—just real tips for real women who want to understand what they’re drinking and why they love it.
+                </p>
+                <p>
+                    From decoding labels to understanding flavors to pairing your favorite bottle with anything from a cozy dinner to your mood after a long day, we make wine feel like second nature.
+                </p>
+                <p>Still not sure what you like? Let’s find out —</p>
+                <div class="d-flex gap-3 ">
+                    <a href="#" class="btn btn-danger">Visit Wine School</a>
+                    <a href="#" class="btn btn-outline-danger">Take the Wine Match Quiz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="moments-section ">
+    <div class="container text-center">
+        <h3 class="mb-4">Moments in Every Bottle</h3>
+
+        <div class="row justify-content-center gx-3 gy-3">
+            <div class="col-4 col-sm-3 col-md-2">
+                <img src="images/gallery4.png" class="img-fluid img-default" alt="Moment 1">
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <img src="images/gallery3.png" class="img-fluid" alt="Moment 2">
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <img src="images/gallery2.png" class="img-fluid img-default" alt="Moment 3">
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <img src="images/gallery1.png" class="img-fluid" alt="Moment 4">
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <img src="images/gallery5.png" class="img-fluid img-default" alt="Moment 5">
+            </div>
+        </div>
+    </div>
+</section>
+ <div class="container pink-section">
+    <img src="images/flower1.png" class="flower-left" alt="twig left"> <!-- Replace with your image -->
+    <img src="images/flower2.png" class="flower-right" alt="twig right"> <!-- Replace with your image -->
+    <h1>Wine With a<br>Heart &amp; Heritage</h1>
+    <h5>Crafted by women, rooted in sustainable vineyards across France.</h5>
+    <div>
+      <button class="btn">Explore the Collection</button>
+      <button class="btn">Take the Wine Match Quiz</button>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <div class="container">
+      <div class="row mt-4 ">
+        <div class="col-md-6 mb-4 ">
+          <h4>Subscribe To Our Newsletter To Stay </h4><h4>In The Loop</h4>
+          <div class="newsletter mt-2 position-relative d-inline-block">
+            <input type="email" placeholder="Enter Your Email Address">
+            <button type="submit" class="send-btn"><i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <h5 class="mb-4 me-lg-5 fs-3 fw-bold ">Quick Links</h5>
+          <ul class="list-inline mt-2 text-lg-end fs-4">
+            <li class="list-inline-item  me-lg-4 fw-700"><a href="#" class="text-decoration-none text-black">Wines</a></li>
+            <li class="list-inline-item  me-lg-4 fw-700"><a href="#" class="text-decoration-none text-black">Quiz</a></li>
+            <li class="list-inline-item  me-lg-4 fw-700"><a href="#" class="text-decoration-none text-black">Wine School</a></li>
+            <li class="list-inline-item  me-lg-4 fw-700"><a href="#" class="text-decoration-none text-black">About Us</a></li>
+            <li class="list-inline-item  me-lg-4 fw-700"><a href="#" class="text-decoration-none text-black">Events</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="logo"><img src="images/footer-logo.png" alt=""></div>
+      <div class="row mb-4">
+        <div class="col-md-6">
+           <div class="text-lg-start text-center fs-4 fw-bold ms-lg-5">
+        &copy; 2025 Fleur de Verre. All rights reserved.
+        
+      </div>
+        </div>
+        <div class="col-md-6 text-lg-end text-center">
+          <div class="social  fs-5">
+          <a href="#" class="text-uppercase me-lg-5 me-3">Facebook</a>
+          <a href="#" class="text-uppercase me-lg-5 me-3">Twitter</a>
+          <a href="#" class="text-uppercase me-lg-5 me-3">Instagram</a>
+          <a href="#" class="text-uppercase me-lg-5 me-3">TikTok</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
